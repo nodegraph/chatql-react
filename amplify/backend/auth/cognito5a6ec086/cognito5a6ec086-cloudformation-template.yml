@@ -263,7 +263,7 @@ Resources:
             - ' }'
             - '};'
       Handler: index.handler
-      Runtime: nodejs4.17
+      Runtime: nodejs4.x
       Timeout: '300'
       Role: !GetAtt 
         - UserPoolClientRole
